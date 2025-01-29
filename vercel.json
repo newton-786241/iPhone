@@ -3,10 +3,8 @@
       "env": {
         "CI": "true" 
       },
-      "commands": [
-        "npm install react@18 react-dom@18 next@14",  
-        "npm install @react-three/fiber@latest @react-three/drei@latest",  
-        "next build"  
+      "command": [
+        "npm run vercel-install && npm run build"
       ]
     }
   }
