@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "vercel-install": "npm install react@18 react-dom@18 next@14 && npm install @react-three/fiber@latest @react-three/drei@latest",
+    "postinstall": "npm install react@18 react-dom@18 next@14 && npm install @react-three/fiber@latest @react-three/drei@latest",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

@@ -2,10 +2,7 @@
     "build": {
       "env": {
         "CI": "true" 
-      },
-      "command": [
-        "npm run vercel-install && npm run build"
-      ]
+      }
     }
   }
   
