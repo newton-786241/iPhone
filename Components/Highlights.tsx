@@ -19,7 +19,7 @@ const Highlights = () => {
 
   return (
     <section className='bg-zinc-950 text-white w-full overflow-hidden'>
-        <div className='w-full md:w-[80vw] lg:w-[70vw] md:flex justify-between m-auto items-baseline pt-24 sm:pt-32'>
+        <div className='w-full md:w-[80vw] lg:w-[70vw] md:flex justify-between m-auto items-baseline pt-24 sm:pt-32 pl-10 md:pl-0'>
         <h1 id="title" className='text-gray-400 text-3xl sm:text-5xl md:text-6xl pb-3 md:pb-0'>Get the Highlights.</h1>
         <div className=' flex gap-6'>
             <p className='text-blue-600 hover:underline flex gap-2 cursor-pointer text-base md:text-lg lg:text-xl' id="link">
